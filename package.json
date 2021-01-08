@@ -1,0 +1,15 @@
+{
+  "name": "proshop-app",
+  "version": "1.0.0",
+  "description": "Full featured e-commerce app using the MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Glenn Meyer",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
