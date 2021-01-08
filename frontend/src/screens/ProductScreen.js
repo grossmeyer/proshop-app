@@ -14,7 +14,7 @@ const ProductScreen = ({ match }) => {
     }
     loadProductData()
     console.log(`api/products/${match.params.id}`)
-  }, [])
+  }, [match])
 
   return (
     <>
